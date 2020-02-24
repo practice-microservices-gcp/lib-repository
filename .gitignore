@@ -2,3 +2,4 @@
 venv
 dev-data
 nohup.out
+.DS_Store

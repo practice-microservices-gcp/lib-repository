@@ -1,1 +1,1 @@
-repository
+people_repository

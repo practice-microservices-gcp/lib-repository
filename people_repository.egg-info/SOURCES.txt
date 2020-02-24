@@ -1,8 +1,8 @@
 setup.py
+people_repository/__init__.py
+people_repository/my_sql_datasource.py
+people_repository/people_repository.py
 people_repository.egg-info/PKG-INFO
 people_repository.egg-info/SOURCES.txt
 people_repository.egg-info/dependency_links.txt
 people_repository.egg-info/top_level.txt
-repository/__init__.py
-repository/my_sql_datasource.py
-repository/people_repository.py
