@@ -1,4 +1,4 @@
-from repository.people_repository import peopleRepository
+from people_repository.people_repository import peopleRepository
 import json
 import setuptools
 

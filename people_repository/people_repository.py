@@ -1,4 +1,4 @@
-from repository.my_sql_datasource import mysqlDataSource
+from people_repository.my_sql_datasource import mysqlDataSource
 from string import Template
 
 class PeopleRepository:
