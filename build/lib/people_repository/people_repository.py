@@ -1,4 +1,4 @@
-from repository.my_sql_datasource import mysqlDataSource
+from people_repository.my_sql_datasource import mysqlDataSource
 from string import Template
 
 class PeopleRepository:
@@ -39,5 +39,15 @@ class PeopleRepository:
 
         mysqlDataSource.closeConnection()
 
+    def searchPersonById(self, id):
+        searchQuery = ("SELECT name, surname, email FROM people.people WHERE id = %s")
+
+        cursor = mysqlDataSource.getCursor()
+        cursor.execute(searchQuery, (id,))
+        result = cursor.fetchall()
+
+        mysqlDataSource.closeConnection()
+
+        return result
 
 peopleRepository = PeopleRepository()
