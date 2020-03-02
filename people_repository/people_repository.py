@@ -5,7 +5,7 @@ class PeopleRepository:
 
     def listPeople(self, offset, limit):
         totalQuery = ("SELECT count(*) FROM people.people")
-        pagQuery = ("SELECT name, surname, email FROM people.people LIMIT %s,%s")
+        pagQuery = ("SELECT id, name, surname, email FROM people.people LIMIT %s,%s")
 
         cursor = mysqlDataSource.getCursor()
 

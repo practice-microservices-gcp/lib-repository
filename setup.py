@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
      name='people_repository',  
-     version='1.1.0',
+     version='1.1.1',
      scripts=[] ,
      author="Adrian Ferreres",
      author_email="ardiadrianadri@gmail.com",

@@ -1,6 +1,6 @@
 Metadata-Version: 1.1
 Name: people-repository
-Version: 1.1.0
+Version: 1.1.1
 Summary: Library to read data from the DB
 Home-page: https://github.com/practice-microservices-gcp/lib-repository.git
 Author: Adrian Ferreres
