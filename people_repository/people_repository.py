@@ -44,7 +44,7 @@ class PeopleRepository:
 
         cursor = mysqlDataSource.getCursor()
         cursor.execute(searchQuery, (id,))
-        result = cursor.fetchall()
+        result = cursor.fetchone()
 
         mysqlDataSource.closeConnection()
 
